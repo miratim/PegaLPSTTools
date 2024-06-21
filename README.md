@@ -12,7 +12,7 @@ Some sample code and configuration to see how to create your own functions in [P
 
 You can download the latest JAR release from the [project release page](https://github.com/miratim/PegaLPSTTools/releases), or you can generate the necessary JAR file (including dependencies) for uploading into a Pega Launchpad Function rule, run this command:
 
-```gradlew build```
+```gradlew jar```
 
 This will create/update the ```lpst-*-SNAPSHOT.jar``` file under the ```./build/libs``` folder in your workspace. 
 
